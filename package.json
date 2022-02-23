@@ -1,6 +1,11 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "install": "lerna bootstrap",
+    "cli:prod": "lerna run dll && lerna run client:prod",
+    "server": "lerna run dev"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }

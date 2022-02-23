@@ -1,0 +1,21 @@
+.layoutMain {
+    overflow: hidden;
+    height: 100%;
+
+    .apiIcon {
+        width: 50px;
+    }
+
+    .userIcon {
+        width: 30px;
+    }
+
+    .gitHubIcon {
+        font-size: 20px;
+    }
+
+    .gitHubIcon:hover {
+        cursor: pointer;
+        color: #1890ff;
+    }
+}

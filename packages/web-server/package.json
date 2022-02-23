@@ -1,0 +1,25 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "hr",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon app.js"
+  },
+  "dependencies": {
+    "@koa/router": "^8.0.7",
+    "cheerio": "^1.0.0-rc.3",
+    "co": "^4.6.0",
+    "global": "^4.4.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "3",
+    "koa-router": "^8.0.8",
+    "koa2-cors": "^2.0.6",
+    "log4js": "^6.1.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

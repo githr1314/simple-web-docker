@@ -1,0 +1,11 @@
+.content {
+    position: fixed;
+    left: 0;
+    top: 64px;
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    height: calc(100% - 64px);
+    overflow: auto;
+    z-index: 1;
+}

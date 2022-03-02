@@ -8,7 +8,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const OptimizeCssAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const AddAssetHtmlWebpackPlugin = require('add-asset-html-webpack-plugin');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const WebpackBuildNotifierPlugin = require('webpack-build-notifier');
 
 const prodConfig = {
@@ -81,7 +81,7 @@ const prodConfig = {
             title: "simple-api-platform",
             suppressSuccess: true
         }),
-        new BundleAnalyzerPlugin()                      // npm run build:test --report 分析代码结构和大小
+        // new BundleAnalyzerPlugin()                      // npm run build:test --report 分析代码结构和大小
     ]
 }
 
